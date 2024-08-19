@@ -1,0 +1,27 @@
+
+.donut-form{
+    &-radios{
+        display: flex;
+        align-content: center;
+        &-label{
+            margin-right: 10px;
+        }
+        label{
+            display: flex;
+            align-items: center;
+            span{
+                color: #444;
+                margin-bottom: 0;
+            }
+        }
+    }
+    &-working{
+        font-size: 12px;
+        font-style: italic;
+        margin: 10px 0;
+    }
+    &-error{
+        font-size: 12px;
+        color: #e66262;
+    }
+}
